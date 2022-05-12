@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public interface ViaCepService {
 
 
-    @RequestMapping(method = RequestMethod.GET, value = "/{cep}/json/")
-    //@GetMapping("/{cep}/json/")
+    //@RequestMapping(method = RequestMethod.GET, value = "/{cep}/json/")
+    @GetMapping("/{cep}/json/")
     Endereco consultarCep(@PathVariable("cep") String cep);
 
 }
