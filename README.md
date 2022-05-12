@@ -1,2 +1,2 @@
-# Ezplorando Padrões de Projetos na Prática com java
+# Explorando Padrões de Projetos na Prática com java
 Padrões de Projeto com Spring
